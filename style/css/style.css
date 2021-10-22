@@ -17,10 +17,10 @@ h1 {
 }
 
 h2 {
-    padding: 40px;
+  padding: 40px;
   text-shadow: 2px 2px 2px #101010;
   font-family: "Anton", sans-serif;
-  color: #DC9596;
+  color: #dc9596;
 }
 
 p {
@@ -34,7 +34,6 @@ a {
 a:hover {
   color: #bf3100;
 }
-
 
 /* SECTION ONE */
 
@@ -64,49 +63,81 @@ a:hover {
 .navbar {
   background-color: #e9c46a;
   position: absolute;
+  top: 0;
+  width: 100%;
+  height: auto;
 }
 #one {
-  
   background-color: #e9c46a;
   width: 100%;
   min-height: 100vh;
+  /* position: relative;
+   background: linear-gradient(#494949, transparent 90%),
+  linear-gradient(0deg, #e9c46a, transparent),
+  #000 url("") no-repeat center;
+  */
+  background-image: url("/portfolio/style/images/70-s-photoshop-pattern-photoshop-patterns.jpeg");
 }
 
 /* SECTION TWO */
 
 #two {
- 
   background-color: #264653;
   width: 100%;
   min-height: 100vh;
 }
 
 .image {
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 10px;
-    
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
 }
 
 img {
-    width: 500px;
-    height: 450px;
-    border-radius: 25px;
-    box-shadow: 5px 10px 5px #101010;
+  width: 500px;
+  height: 450px;
+  border-radius: 25px;
+  box-shadow: 5px 10px 5px #101010;
 }
 
 .description {
-    background-color: #DCDCDC;
-    margin-top: 20%;
-    border-radius: 15px;
-    padding: 10px;
-    box-shadow: 5px 10px 5px #101010;
+  background-color: #dcdcdc;
+  margin-top: 20%;
+  border-radius: 15px;
+  padding: 10px;
+  box-shadow: 5px 10px 5px #101010;
 }
 
 /* SECTION THREE */
 
 #three {
-    width: 100%;
-    min-height: 100vh;
-  background-color: #e76f51;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #E4BA4E;
 }
+
+.about-container {
+    background-color: #F7EACA;
+    width: 50%;
+    margin-top: 30px !important;
+    margin: auto;
+    padding: 60px;
+    border-radius: 20px;
+    position: relative;
+    border: 15px solid #BF3100;
+}
+
+.about-container:before {
+    background: none;
+    border: 10px solid #4ECDC4;
+    content: "";
+    display: block;
+    position: absolute;
+    top: -4px;
+    left: -4px;
+    right: -4px;
+    bottom: -4px;
+    pointer-events: none;
+    border-radius: 20px;
+  }
+  
