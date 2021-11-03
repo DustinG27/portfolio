@@ -21,6 +21,7 @@ h2 {
   text-shadow: 2px 2px 2px #101010;
   font-family: "Anton", sans-serif;
   color: #dc9596;
+  text-align: center;
 }
 
 p {
@@ -68,15 +69,10 @@ a:hover {
   height: auto;
 }
 #one {
-  background-color: #e9c46a;
   width: 100%;
   min-height: 100vh;
-  /* position: relative;
-   background: linear-gradient(#494949, transparent 90%),
-  linear-gradient(0deg, #e9c46a, transparent),
-  #000 url("") no-repeat center;
-  */
-  background-image: url("/portfolio/style/images/70-s-photoshop-pattern-photoshop-patterns.jpeg");
+  background: #e9c46a url("../images/paper-test.jpeg") no-repeat center;
+  background-size: cover;
 }
 
 /* SECTION TWO */
@@ -113,31 +109,41 @@ img {
 #three {
   width: 100%;
   min-height: 100vh;
-  background-color: #E4BA4E;
+  background-color: #e4ba4e;
 }
 
 .about-container {
-    background-color: #F7EACA;
-    width: 50%;
-    margin-top: 30px !important;
-    margin: auto;
-    padding: 60px;
-    border-radius: 20px;
-    position: relative;
-    border: 15px solid #BF3100;
+  background-color: #f7eaca;
+  width: 50%;
+  margin-top: 30px !important;
+  margin: auto;
+  padding: 60px;
+  border-radius: 20px;
+  position: relative;
+  border: 15px solid #bf3100;
 }
 
 .about-container:before {
-    background: none;
-    border: 10px solid #4ECDC4;
-    content: "";
-    display: block;
-    position: absolute;
-    top: -4px;
-    left: -4px;
-    right: -4px;
-    bottom: -4px;
-    pointer-events: none;
-    border-radius: 20px;
-  }
-  
+  background: none;
+  border: 10px solid #4ecdc4;
+  content: "";
+  display: block;
+  position: absolute;
+  top: -4px;
+  left: -4px;
+  right: -4px;
+  bottom: -4px;
+  pointer-events: none;
+  border-radius: 20px;
+}
+
+.design,
+.development,
+.other {
+  margin: auto;
+  width: 60%;
+  padding: 20px;
+  border-radius: 2em;
+  background-color: #f7eaca;
+  border: 10px solid #75411a;
+}
