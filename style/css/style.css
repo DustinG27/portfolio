@@ -147,3 +147,16 @@ img {
   background-color: #f7eaca;
   border: 10px solid #75411a;
 }
+
+footer {
+  bottom: 0;
+  width: 100%;
+  margin-top: 15%;
+  background-color: #e4ba4e;
+}
+
+
+#footer {
+  font-size: 1.5em;
+  text-align: center;
+}
