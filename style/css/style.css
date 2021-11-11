@@ -17,11 +17,12 @@ h1 {
 }
 
 h2 {
-  padding: 40px;
-  text-shadow: 2px 2px 2px #101010;
+  padding: 20px;
+  text-shadow: 3px 3px 3px #101010;
   font-family: "Anton", sans-serif;
-  color: #dc9596;
+  color: #F0A693;
   text-align: center;
+  font-size: 4em;
 }
 
 p {
@@ -78,7 +79,7 @@ a:hover {
 /* SECTION TWO */
 
 #two {
-  background-color: #264653;
+  background-color: #31AFA7;
   width: 100%;
   min-height: 100vh;
 }
@@ -86,7 +87,8 @@ a:hover {
 .image {
   margin-left: 20px;
   margin-right: 20px;
-  margin-top: 10px;
+  margin-top: 10%;
+  
 }
 
 img {
@@ -115,7 +117,7 @@ img {
 .about-container {
   background-color: #f7eaca;
   width: 50%;
-  margin-top: 30px !important;
+  margin-top: 5% !important;
   margin: auto;
   padding: 60px;
   border-radius: 20px;
@@ -146,6 +148,7 @@ img {
   border-radius: 2em;
   background-color: #f7eaca;
   border: 10px solid #75411a;
+  margin-top: 10%;
 }
 
 footer {
@@ -159,4 +162,8 @@ footer {
 #footer {
   font-size: 1.5em;
   text-align: center;
+}
+
+.text-center {
+  font-weight: bold;
 }
