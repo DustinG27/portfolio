@@ -20,7 +20,7 @@ h2 {
   padding: 20px;
   text-shadow: 3px 3px 3px #101010;
   font-family: "Anton", sans-serif;
-  color: #F0A693;
+  color: #f0a693;
   text-align: center;
   font-size: 4em;
 }
@@ -74,21 +74,22 @@ a:hover {
   min-height: 100vh;
   background: #e9c46a url("../images/paper-test.jpeg") no-repeat center;
   background-size: cover;
+  
 }
 
 /* SECTION TWO */
 
 #two {
-  background-color: #31AFA7;
+  background-color: #31afa7;
   width: 100%;
   min-height: 100vh;
+  
 }
 
 .image {
   margin-left: 20px;
   margin-right: 20px;
   margin-top: 10%;
-  
 }
 
 img {
@@ -152,12 +153,11 @@ img {
 }
 
 footer {
-  bottom: 0;
+  margin-bottom: 0;
   width: 100%;
   margin-top: 15%;
   background-color: #e4ba4e;
 }
-
 
 #footer {
   font-size: 1.5em;
